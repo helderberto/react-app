@@ -11,11 +11,6 @@ module.exports = {
     path: paths.outputPath,
   },
   module: { rules },
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-    },
-  },
   devServer: {
     contentBase: paths.outputPath,
     compress: true,
